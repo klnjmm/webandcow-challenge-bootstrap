@@ -5,11 +5,15 @@ init:
 	$(RM) -r .git
 
 .PHONY: up
-up: install-vendor
+up: install-vendor env-files
 
 .PHONY: install-vendor
 install-vendor: 
 	$(PHP) $(COMPOSER) install
+
+.PHONY: env-files
+env-files:
+	cp .env.dist .env
 
 .PHONY: clean-vendor
 clean-vendor:

@@ -21,7 +21,9 @@ Let's code !
 
 ## How to resolve challenges
 
-* Open `index.php` file and fill `$myKey` and `$challengeCode` variables
+* .Open `.env` file and fill `WEBANDCOW_API_KEY` and `WEBANDCOW_CHALLENGE_CODE` variables
+  * `WEBANDCOW_API_KEY` can be copy from [your profile page](https://code-challenge.webandcow.com/achievments/visualisationAchievment)
+  * `WEBANDCOW_CHALLENGE_CODE` can be copy from the challenge webpage.
 * Write your solution in `src/Solution.php`
 * Write your unit tests in `tests/units/SolutionTest.php` 
 * Try your solution : 
@@ -42,6 +44,25 @@ make unit-tests
 * Launch code sniffer
 ```
 make code-sniffer
+```
+
+
+## Possible errors
+
+* Challenge code unknown. Please copy it again from the challenge webpage in `WEBANDCOW_CHALLENGE_CODE`in your `.env` file
+```
+Exception: Error when contacting API -- Array
+(
+[0] => Engine inconnu ou non valide
+)
+```
+
+* Bad API KEY. Please copy it again from  [your profile page](https://code-challenge.webandcow.com/achievments/visualisationAchievment) in `WEBANDCOW_API_KEY`in your `.env` file
+```
+Exception: Error when contacting API -- Array
+  (
+  [0] => Key User non valide
+  )
 ```
 
 ## Licensing
