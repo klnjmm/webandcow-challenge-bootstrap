@@ -11,7 +11,8 @@
     "license": "MIT",
     "require": {
         "php": "~7.3",
-        "webandcow/challenge": "dev-main"
+        "webandcow/challenge": "dev-main",
+        "tightenco/collect": "dev-master"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.4",
