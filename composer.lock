@@ -12,15 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/klnjmm/webandcow-challenge.git",
-                "reference": "6e73cc41c48697dbcc9687029c62d910c9edec9a"
+                "reference": "abbc364a8dd786f5a6988d9d0525d45f0075addb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/klnjmm/webandcow-challenge/zipball/6e73cc41c48697dbcc9687029c62d910c9edec9a",
-                "reference": "6e73cc41c48697dbcc9687029c62d910c9edec9a",
+                "url": "https://api.github.com/repos/klnjmm/webandcow-challenge/zipball/abbc364a8dd786f5a6988d9d0525d45f0075addb",
+                "reference": "abbc364a8dd786f5a6988d9d0525d45f0075addb",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "php": "~7.3"
             },
             "require-dev": {
@@ -46,7 +47,7 @@
                 "source": "https://github.com/klnjmm/webandcow-challenge/tree/main",
                 "issues": "https://github.com/klnjmm/webandcow-challenge/issues"
             },
-            "time": "2020-12-03T22:12:14+00:00"
+            "time": "2020-12-12T14:09:27+00:00"
         }
     ],
     "packages-dev": [
